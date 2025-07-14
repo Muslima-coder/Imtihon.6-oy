@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/mulish-v17-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../src/assets/fonts/mulish-v17-latin-500.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../src/assets/fonts/mulish-v17-latin-600.woff2') format('woff2'); 
+}
+@font-face {
+  font-display: swap; 
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/assets/fonts/mulish-v17-latin-700.woff2') format('woff2'); 
+}
+
+.containers{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-section{
+  background-image: url("./assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  height: 1000px;
+}
+
+.card-content{
+  box-shadow: 0px 3px 19px 0px #00000017;
+}
+
+.ready-section{
+  background-image: url("./assets/images/ready-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  height: 503px;
+}
+.footer{
+  background-image: url("./assets/images/footerbg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+  height: 888px;
+}
