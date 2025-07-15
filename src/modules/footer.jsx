@@ -6,7 +6,7 @@ import { FooterText } from "../components"
 const Footer = () => {
   return (
     <footer className="footer pt-[86px] pb-[3px]">
-        <div className="containers px-[5px] sm:px-0">
+        <div className="containers">
             <img  className='mx-auto mb-3' src={HeroContent} alt="img" />
             <marquee>
             <div className=" flex items-center justify-between pb-[89px] border-b-[1px] border-b-[#D092BA] w-full">
