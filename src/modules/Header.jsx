@@ -7,32 +7,39 @@ const Header = () => {
   const navList = ["Home", "About me", "Pages", "Contact us"]
 
   return (
-    <header className="py-[57px]">
-      <div className="containers flex justify-between items-center relative">
-        <a href="#">
-           <img className="sm:w-[176px] sm:h-[41px] w-[100px] h-[30px]" src={Logo} alt="logo"/>
-        </a>
-        <div>
-          <nav className="hidden sm:flex gap-[40px] items-center">
-            {navList.map((item, index) => (
-              <NavLink key={index} title={item} />
-            ))}
-          </nav>
-            {/* More btn */}
-          <button className="sm:hidden flex" onClick={() => setIsOpen(!isOpen)}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-three-dots" viewBox="0 0 16 16"> <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/></svg>
-          </button>
-        </div>
+   <header className="py-[57px] relative">
+  <div className="containers flex justify-around sm:justify-between items-center">
+    <a href="#">
+      <img
+        className="sm:w-[176px] sm:h-[41px] w-[100px] h-[30px]"
+        src={Logo}
+        alt="logo"
+      />
+    </a>
 
-      </div>
-        {isOpen && (
-          <div className="absolute top-[100%] right-0 left-0 shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-50">
-            {navList.map((item, index) => (
-              <NavLink key={index} title={item} />
-            ))}
-          </div>
-        )}
-    </header>
+    <div className="relative z-[999]">
+      <nav className="hidden sm:flex gap-[40px] items-center">
+        {navList.map((item, index) => (
+          <NavLink key={index} title={item} />
+        ))}
+      </nav>
+
+      <button className="sm:hidden flex" onClick={() => setIsOpen(!isOpen)}>
+        {/* icon */}
+      </button>
+    </div>
+  </div>
+
+  {/* menu endi container tashqarisida */}
+  {isOpen && (
+    <div className="absolute right-4 top-full bg-white shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-[9999] w-[200px]">
+      {navList.map((item, index) => (
+        <NavLink key={index} title={item} />
+      ))}
+    </div>
+  )}
+</header>
+
   )
 }
 
