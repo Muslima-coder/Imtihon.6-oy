@@ -5,7 +5,7 @@ const Header = () => {
 const navList = ["Home", "About me", "Pages", "Contact us"]
   return (
     <header className=" py-[57px]">
-        <div className="containers flex justify-between items-center">
+        <div className="containers flex justify-around sm:justify-between items-center">
            <a href="#"> <img className="sm:w-[176px] sm:h-[41px] w-[100px] h-[30px] " src={Logo} alt="logo" /></a>
             <div>
                <nav className=" hidden sm:flex gap-[40px] items-center">
