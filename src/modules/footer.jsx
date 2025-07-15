@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             </marquee>
 
-           <div className=" flex items-center justify-between pt-[129px] pb-[39px] border-b-[1px] border-b-[#D092BA] w-full">
+           <div className=" flex-col flex sm:flex-row items-center justify-between pt-[129px] pb-[39px] border-b-[1px] border-b-[#D092BA] w-full">
              <div className="flex items-center gap-[26px]">
                 <div>
                     <FooterText title={"UX Designer"}/>
@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="w-[819px] bg-white rounded-[20px] flex items-center justify-around ">
+            <div className="sm:w-[819px] w-[400px] bg-white rounded-[20px] flex items-center justify-around ">
                 <p className="font-normal text-[24px] leading-[36px] p-[39px] text-[#242F65] ">Interested in working together? Drop me a line</p>
                 <a className="flex px-4 items-center gap-[10px] w-[187px] rounded-[10px] bg-[#242F65] border-[2px] text-white cursor-pointer border-[#242F65] hover:bg-transparent hover:text-[#242F65] duration-300" href="#"><BtnIcon/> 
                 <p className="font-normal  text-[20px] leading-[30px]  py-[10px]">Write Now</p></a>
