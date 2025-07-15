@@ -43,7 +43,7 @@ const Header = () => {
           />
         </a>
 
-        <div>
+        <div className="relative z-[999]">
           <nav className="hidden sm:flex gap-[40px] items-center">
             {navList.map((item, index) => (
               <NavLink key={index} title={item} />
