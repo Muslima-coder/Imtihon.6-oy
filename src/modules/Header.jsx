@@ -58,7 +58,7 @@ const Header = () => {
         </div>
 
         {isOpen && (
-          <div className="absolute top-[100%] h-[300px] right-0 bg-white shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-100">
+          <div className="absolute top-[100%] h-[300px] right-0 bg-white shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-[9999]">
             {navList.map((item, index) => (
               <NavLink key={index} title={item} />
             ))}
