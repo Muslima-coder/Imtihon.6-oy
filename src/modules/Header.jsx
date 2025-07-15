@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="py-[57px]">
-      <div className="containers flex justify-around sm:justify-between items-center relative">
+      <div className="containers flex justify-between items-center relative">
         <a href="#">
            <img className="sm:w-[176px] sm:h-[41px] w-[100px] h-[30px]" src={Logo} alt="logo"/>
         </a>
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
         {isOpen && (
-          <div className="absolute top-[100%] right-0 bg-white shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-50">
+          <div className="absolute top-[100%] right-[50] bg-white shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-50">
             {navList.map((item, index) => (
               <NavLink key={index} title={item} />
             ))}
