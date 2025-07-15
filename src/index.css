@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @font-face {
   font-display: swap; 
   font-family: 'Mulish';
@@ -33,6 +34,7 @@
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
+    overflow-x: hidden;
 }
 
 .hero-section{
