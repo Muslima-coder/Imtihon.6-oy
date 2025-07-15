@@ -6,10 +6,10 @@ import { FooterText } from "../components"
 const Footer = () => {
   return (
     <footer className="footer pt-[86px] pb-[3px]">
-        <div className="containers">
+        <div className="containers px-[5px] sm:px-0">
             <img  className='mx-auto mb-3' src={HeroContent} alt="img" />
             <marquee>
-            <div className="px-[5px] sm:px-0 flex items-center justify-between pb-[89px] border-b-[1px] border-b-[#D092BA] w-full">
+            <div className=" flex items-center justify-between pb-[89px] border-b-[1px] border-b-[#D092BA] w-full">
                 <div className="flex items-center gap-[10px]">
                    <HandIcon/>
                    <p className="font-normal text-[30px] leading-[45px] text-[#242F65] ">Get in Touch</p>
