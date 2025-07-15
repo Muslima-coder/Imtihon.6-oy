@@ -4,7 +4,7 @@ import Button from '../components/Button'
 
 const Hero = () => {
   return (
-    <section className='hero-section'>
+    <section className='hero-section sm:h-[880px] h-[480px] '>
         <div className="containers">
             <h2 className=' text-[25px] leading-[35px] mt-[15px] mb-[3px] sm:mt-[23px] text-center font-normal sm:text-[100px] text-[rgba(36,47,101,1)] sm:leading-[130px] '>Tell your creativity to the world with <span className='text-[rgba(255,119,76,1)]'> UIUXer</span></h2>
             <p className='mb-[15px] w-[300px] sm:w-[500px] mx-auto text-center font-normal sm:text-[25px] text-[rgba(36,47,101,1)] sm:leading-[37px] text-[14px] leading-[18px] '>UIUXer is a creative, minimal, and cleanly designed personal and portfolio Webflow template.</p>
