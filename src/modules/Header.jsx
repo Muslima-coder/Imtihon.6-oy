@@ -24,14 +24,14 @@ const Header = () => {
           </button>
         </div>
 
+      </div>
         {isOpen && (
-          <div className="absolute top-[100%] right-[50] bg-white shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-50">
+          <div className="absolute top-[100%] right-0 left-0 shadow-md rounded-md flex flex-col gap-[20px] p-4 sm:hidden z-50">
             {navList.map((item, index) => (
               <NavLink key={index} title={item} />
             ))}
           </div>
         )}
-      </div>
     </header>
   )
 }
