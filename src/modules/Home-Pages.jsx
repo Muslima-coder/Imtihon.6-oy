@@ -3,7 +3,7 @@ import { Card, Heading, Text } from '../components'
 
 const HomePages = () => {
   return (
-    <section className='pt-[120px] pb-[39px]'>
+    <section className='pt-[30px] sm:pt-[120px] pb-[39px]'>
         <div className="containers">
         <Heading title={"Professional Home Pages"}/>
         <Text title={"Attractive and stylish home layouts bring your portfolio website to the next level."}/>

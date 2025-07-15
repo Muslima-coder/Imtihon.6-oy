@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Hero from "./Hero";
+ import Hero from "./Hero";
 import HomePages from "./Home-Pages";
 import CaseSttudies from "./CaseStudies";
 import Supportive from "./Supportive";
