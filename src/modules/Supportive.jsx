@@ -1,12 +1,12 @@
 import { supportive1, supportive2, supportive3, supportive4 } from '../assets/images'
-import Card from '../components/Card'
+import { Card, Heading, Text } from '../components'
 
 const Supportive = () => {
   return (
     <section className='pt-[120px] pb-[39px]'>
         <div className="containers">
-        <h2 className='mb-[10px] font-normal text-[40px] leading-[56px] text-[#242F65] text-center'>Supportive Pages</h2>
-        <p className='font-normal text-[20px] leading-[30px] text-[#525665] text-center'>Feel the feature of creativity with these inner page layouts that perfectly match your site.</p>
+          <Heading title={"Supportive Pages"}/>
+          <Text title={"Feel the feature of creativity with these inner page layouts that perfectly match your site."}/>
          
          <div className='flex flex-wrap gap-[20px] items-center pt-[60px]'>
           <Card srcImg={supportive1} text={"About Me"} wImg={600}/>

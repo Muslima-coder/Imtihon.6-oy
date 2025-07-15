@@ -1,6 +1,6 @@
 import { BtnIcon, CompIcon, HandIcon } from "../assets/icons/Icons"
 import { HeroContent } from "../assets/images"
-import { FooterText } from "../components/footerText"
+import { FooterText } from "../components"
 
 
 const Footer = () => {

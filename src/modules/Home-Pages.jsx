@@ -1,12 +1,12 @@
 import { Card1, Card2, Card3, Card4 } from '../assets/images'
-import Card from '../components/Card'
+import { Card, Heading, Text } from '../components'
 
 const HomePages = () => {
   return (
     <section className='pt-[120px] pb-[39px]'>
         <div className="containers">
-        <h2 className='mb-[10px] font-normal text-[40px] leading-[56px] text-[#242F65] text-center'>Professional Home Pages</h2>
-        <p className='font-normal text-[20px] leading-[30px] text-[#525665] text-center'>Attractive and stylish home layouts bring your portfolio website to the next level.</p>
+        <Heading title={"Professional Home Pages"}/>
+        <Text title={"Attractive and stylish home layouts bring your portfolio website to the next level."}/>
          
          <div className='flex flex-wrap gap-[20px] items-center pt-[60px]'>
           <Card srcImg={Card1} text={"About Me"} wImg={600}/>

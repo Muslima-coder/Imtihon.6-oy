@@ -1,12 +1,12 @@
 import { utility1, utility2, utility3, utility4, utility5 } from '../assets/images'
-import Card from '../components/Card'
+import { Card, Heading, Text } from '../components'
 
 const Utilities = () => {
   return (
     <section className='pt-[120px] pb-[39px] bg-[#2A2C32] '>
         <div className="containers">
-        <h2 className='mb-[10px] font-normal text-[40px] leading-[56px] text-[#FFFFFF] text-center'>Utility Pages</h2>
-        <p className='font-normal text-[20px] leading-[30px] text-[#FFFFFF] text-center'>Default templates for your site & you can customize these pages to look the way you want.</p>
+          <Heading title={"Utility Pages"}/>
+          <Text title={"Default templates for your site & you can customize these pages to look the way you want."}/>
          
          <div className='flex flex-wrap gap-[20px] items-center pt-[60px]'>
           <Card srcImg={utility1} text={"About Me"} wImg={600} extraClassText={"text-[#FFFFFF]"}/>
