@@ -2,7 +2,9 @@ import { CaseSttudies, Header, Hero, HomePages, Ready, Supportive, Utilities } f
 import Footer from "./modules/footer"
 
 
+
 function App(){
+  
   return(
   <>
   <Header/>
